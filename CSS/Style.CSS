@@ -1,0 +1,28 @@
+*{
+padding: 0 0;
+margin: 0 0;
+background-color: hsl(19, 100%, 96%);
+}
+
+/*Esta es la sección de el menu nav donde se encuentran los enlaces para acceder rapidamente a las secciones*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Esta es la clase de la parte izquierda del menu de navegacion*/
+nav .nav-icon{
+    display: flex;
+    gap: 8px;
+}
+
+nav .nav-icon img{
+    width: 50%;
+    height: 3vh;
+}
+
+/*Esta es la clase de la parte derecha del menu de navegacion*/
+nav .nav-list{
+    gap: 60px;
+}
