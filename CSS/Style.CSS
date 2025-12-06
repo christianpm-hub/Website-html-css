@@ -59,6 +59,7 @@ nav .nav-list a{
 
 /*====== MENU HOME ======*/
 .home{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
