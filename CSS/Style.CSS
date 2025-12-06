@@ -1,44 +1,118 @@
-/*Aquí se importa la fuente*/
+/*====== GOOGLE FONTS ======*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-/*Aquí pongo un padding, un margin, un color de fondo y una fuente por defecto*/
+/*====== DEFECTO ======*/
 *{
     padding: 0 0;
     margin: 0 0;
     background-color: hsl(19, 100%, 96%);
-    font-family: 'Lora', serif;
-    
+    color: #40322E;
 }
 
-/*Esta es la sección de el menu nav donde se encuentran los enlaces para acceder rapidamente a las secciones*/
+/*====== MENU NAV ======*/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1%;
-    
+    font-size: 20px;
+    flex-wrap: wrap;
 }
 
-/*Esta es la clase de la parte izquierda del menu de navegacion*/
+/*====== MENU NAV IZQUIERDA ======*/
 nav .nav-icon{
-    padding-left: 4%;
+    padding-left: 15%;
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 
 nav .nav-icon img{
-    width: 50%;
-    height: 3vh;
+    width: 35%;
+    height: 2.5vh;
 }
 
-/*Esta es la clase de la parte derecha del menu de navegacion*/
+nav .nav-icon p{
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 600; 
+    color: #40322E;
+}
+
+/*====== MENU NAV DERECHA ======*/
 nav .nav-list{
     display: flex;
-    padding-right: 4%;
-    gap: 20px;
+    padding-right: 15%;
+    gap: 50px;
     align-items: center;
 }
 
 nav .nav-list a{
     text-decoration: none;
+    color: black;   
 }
+
+/*====== MENU HOME ======*/
+.home{
+    display: flex;
+    justify-content: center;
+}
+.flower1{
+    opacity: 20%;
+    width: 150px;
+    transform: rotate(90deg);
+}
+.home h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+    font-size: 70px; 
+}
+
+.home .sushi-food{
+    display: flex;
+    gap: 12px;
+}
+.home .sushi-food img{
+    width: 70px;
+    height: 70px;
+}
+
+.home .sushi-home-description {
+    
+    color: #7e7167;
+}
+
+.home .sushi-image-home{
+}
+/*===== MENU BUTTON ======*/
+.home button{
+    background-color: #DB7134;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+    border-radius: 30px;
+    border-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.home button p{
+    background-color: #DB7134;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.home button img{
+    background-color: #DB7134;
+    color: white;
+    width: 20px;
+}
+
