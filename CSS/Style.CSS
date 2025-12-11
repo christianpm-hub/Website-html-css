@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
@@ -13,12 +14,12 @@
 * {
     padding: 0 0;
     margin: 0 0;
-    background-color: hsl(19, 100%, 96%);
     color: #40322E;
     box-sizing: border-box;
 }
 
 body {
+    background-color: hsl(19, 100%, 96%);
     margin: 0;
     padding: 0;
 }
@@ -31,6 +32,7 @@ body {
 
 /*====== MENU NAV ======*/
 nav {
+    background-color: hsl(19, 100%, 96%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +83,7 @@ nav .nav-list a {
 
 /*====== MENU HOME ======*/
 .home {
-    padding-top: 5%;
+    padding-top: 10%;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -236,67 +238,69 @@ nav .nav-list a {
     text-align: center;
     align-items: center;
 }
-#Popular .best-food h3{
-    background-color: hsl(19, 100%, 96%);
+
+#Popular .best-food h3 {
     text-align: center;
     font-size: 28px;
     color: #E47738;
     font-family: dancing script, cursive;
 }
 
-#Popular .popular-dishes h2{
-    background-color: hsl(19, 100%, 96%);
+#Popular .popular-dishes h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 50px;
+    padding-bottom: 60px;
 }
 
-#Popular .card-dishes{
-    background-color: hsl(19, 100%, 96%);
-    background-color: white;
+#Popular .card-dishes {
+    flex-wrap: wrap;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     text-align: center;
 }
 
-#Popular .card-dishes .onigiri p{
+#Popular .card-dishes .products {
+    background-color: white;
+    border-radius: 20px;
+    width: calc(100%/3 - 32px);
+}
+
+#Popular .card-dishes .products p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 30px;
 }
 
-#Popular .card-dishes .spring-rolls p{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 30px;
-}
-
-#Popular .card-dishes .sushi-rolls p{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 30px;
-}
-
-#Popular .card-dishes .japanese-dish p{
+#Popular .card-dishes .japanese-dish p {
     color: #7e7167;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 20;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-#Popular .card-dishes .price{
-display: flex;
-gap: 20px;
-align-items: center;
-text-align: center;
+#Popular .card-dishes .price {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
 }
 
-#Popular .card-dishes .price p{
+#Popular .card-dishes .price p {
     color: #E47738;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#Popular .card-dishes .price img{
+#Popular .card-dishes .price img {
     width: 30px;
+}
+
+#Popular .card-dishes .japanese-dish .price {
+    justify-content: center;
 }
