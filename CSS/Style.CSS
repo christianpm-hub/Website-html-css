@@ -612,3 +612,73 @@ nav .nav-list img:hover{
     background-color: white;
     border-radius: 20px;
 }
+
+/* ====== MODO OSCURO ====== */
+.dark-theme {
+    background-color: #1c1c1c;
+    color: #f5f5f5; /* color general del texto */
+  }
+  
+  /* Navbar */
+  .dark-theme nav {
+    background-color: #2a2a2a;
+  }
+  
+  .dark-theme nav .nav-list a {
+    color: #f5f5f5;
+  }
+  
+  .dark-theme nav .nav-list a:hover {
+    color: #DB7134; /* naranja al pasar el ratón */
+  }
+  
+  .dark-theme nav .nav-icon p {
+    color: #f5f5f5;
+  }
+  
+  /* Secciones */
+  .dark-theme h1,
+  .dark-theme h2,
+  .dark-theme h3,
+  .dark-theme p {
+    color: #f5f5f5;
+  }
+  
+  /* Subscribe section */
+  .dark-theme .subscribe {
+    background-color: #2a2a2a;
+  }
+  
+  .dark-theme .subscribe-content h2 {
+    color: #f5f5f5;
+  }
+  
+  .dark-theme .subscribe-content h3 {
+    color: #DB7134;
+  }
+  
+  /* Footer */
+  .dark-theme .footer {
+    background-color: #2a2a2a;
+  }
+  
+  .dark-theme .footer p,
+  .dark-theme .footer h3 {
+    color: #f5f5f5;
+  }
+  
+  .dark-theme .footer .footer-bottom p {
+    color: #ccc;
+  }
+
+  /* ====== ANIMACIONES SCROLL ====== */
+section, .products, .subscribe, .footer {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+  }
+  
+  section.show, .products.show, .subscribe.show, .footer.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
