@@ -8,4 +8,4 @@ Instalación:
     2. Abrir index.html para abrir la página y observarla desde el navegador
 
      
-![imagen](images/home-sushi-title.png)
+![imagen](images/home-sushi-rolls.png)
