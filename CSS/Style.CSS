@@ -81,6 +81,19 @@ nav .nav-list a {
     color: black;
 }
 
+nav .nav-list a:hover {
+    color: #DB7134;
+}
+
+nav .nav-list img{
+    cursor: pointer;
+}
+
+nav .nav-list img:hover{
+    background-color: #DB7134;
+    border-radius: 10px;
+}
+
 /*====== MENU HOME ======*/
 .home {
     padding-top: 10%;
@@ -316,7 +329,7 @@ nav .nav-list a {
     padding-bottom: 15%;
 }
 
-#Recently .alga1-recently{
+#Recently .alga1-recently {
     position: absolute;
     top: 350px;
     left: -200px;
@@ -325,48 +338,49 @@ nav .nav-list a {
     z-index: 1;
 }
 
-#Recently .main-recently{
+#Recently .main-recently {
     align-items: center;
     flex-wrap: wrap;
 }
 
-#Recently .main-recently .recently-added h3{
+#Recently .main-recently .recently-added h3 {
     font-size: 28px;
     color: #E47738;
     font-family: dancing script, cursive;
 }
 
-#Recently .main-recently .sushi-samurai{
+#Recently .main-recently .sushi-samurai {
     padding-top: 3%;
     gap: 30px;
     display: flex;
     width: 500px;
 }
-#Recently .main-recently .sushi-samurai h1{
+
+#Recently .main-recently .sushi-samurai h1 {
     gap: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 40px;
 }
 
-#Recently .main-recently .lechuga-recently img{
+#Recently .main-recently .lechuga-recently img {
     padding-top: 50px;
     width: 30px;
     transform: rotate(30deg);
 
 }
 
-#Recently .main-recently .recently-description{
+#Recently .main-recently .recently-description {
     max-width: 300px;
     color: #7e7167;
     padding-bottom: 4%;
 }
 
-#Recently .image-recently img{
+#Recently .image-recently img {
     width: 600px;
 }
 
-#Recently .alga2-recently{
+#Recently .alga2-recently {
     position: absolute;
     top: 200px;
     right: -150px;
@@ -375,6 +389,7 @@ nav .nav-list a {
     transform: rotate(330deg);
     z-index: 1;
 }
+
 /*===== RECENTLY BUTTON ======*/
 #Recently button {
     background-color: #DB7134;
@@ -415,69 +430,69 @@ nav .nav-list a {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .subscribe-wrapper {
+}
+
+.subscribe-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
-  }
-  
-  .subscribe-image img {
+}
+
+.subscribe-image img {
     width: 300px;
     border-radius: 12px;
-  }
-  
-  .subscribe-content {
+}
+
+.subscribe-content {
     color: white;
     max-width: 500px;
-  }
-  
-  .subscribe-content h3 {
+}
+
+.subscribe-content h3 {
     font-size: 28px;
     color: #E47738;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 10px;
-  }
-  
-  .subscribe-content h2 {
+}
+
+.subscribe-content h2 {
     font-size: 35px;
     font-weight: 100;
     font-family: 'Times New Roman', serif;
     margin-bottom: 20px;
     color: white;
-  }
-  
-  .subscribe-form {
+}
+
+.subscribe-form {
     margin-top: 20px;
     width: 100%;
-  }
-  
-  .input-button-wrapper {
+}
+
+.input-button-wrapper {
     display: flex;
     width: 100%;
     max-width: 400px;
     border-radius: 20px;
     overflow: hidden;
     background-color: white;
-  }
-  
-  .input-button-wrapper input[type="email"] {
+}
+
+.input-button-wrapper input[type="email"] {
     flex: 1;
     padding: 15px 16px;
     border: none;
     outline: none;
     font-size: 16px;
-  }
-  
-  .input-button-wrapper button {
+}
+
+.input-button-wrapper button {
     background-color: #DB7134;
     color: white;
     border: none;
     padding: 5px 5px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-right: 10px;
     font-weight: bold;
     display: flex;
@@ -485,9 +500,115 @@ nav .nav-list a {
     gap: 6px;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  .input-button-wrapper button img{
+}
+
+.input-button-wrapper button img {
     width: 20px;
-  }
-  
+}
+
+.lechuga {
+    position: absolute;
+    bottom: -40px;
+    right: 300px;
+    z-index: 1;
+
+}
+
+.lechuga img {
+    width: 50px;
+    transform: rotate(25deg);
+    position: absolute;
+    position: absolute;
+    top: 0px;
+    right: -150px;
+    opacity: 20%;
+    width: 150px;
+    transform: rotate(330deg);
+    z-index: 1;
+
+}
+
+/*====== FOOTER SECTION ======*/
+.footer .footer-main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-main-container p:hover{
+    color: #DB7134;
+    cursor: pointer;
+}
+
+.footer .footer-main-container .poppins-regular h3 {
+    font-weight: 600;
+}
+
+.footer .footer-main-container .column1 {
+    width: 13%;
+}
+
+.footer .footer-main-container .column1 .column1-icon {
+    gap: 8px;
+}
+
+.footer .footer-main-container .column1 p {
+    padding-top: 1%;
+    font-size: 15px;
+}
+
+.footer .footer-main-container .column1 img {
+    padding: 5px 5px;
+    width: 15%;
+}
+
+.footer .footer-main-container .column1 .column1-icon img {
+    width: 20%;
+}
+
+.footer .footer-main-container .column1 .column1-icon p {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #40322E;
+    gap: 8px;
+}
+
+.footer .footer-main-container .column1 .column1-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-main-container .column5 img {
+    padding-top: 20px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.footer .footer-bottom {
+    align-items: center;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-bottom p {
+    font-size: 14px;
+    color: #7e7167;
+}
+
+.footer .footer-bottom img {
+    width: 100px;
+    opacity: 20%;
+}
+
+.footer .footer-bottom .pay-icons img {
+    width: 50px;
+    opacity: 100%;
+}
+
+.footer .comeback-button {
+
+    width: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
